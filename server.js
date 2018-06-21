@@ -23,12 +23,13 @@ app.use(bodyParser.json());
 // ROUTER
 // ================================================================================
 
+app.use('/assets', express.static('app/public/assets'));
+
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 // =============================================================================
 // LISTENER
-// The below code effectively "starts" our server
 // =============================================================================
 
 app.listen(PORT, function() {
