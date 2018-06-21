@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder - Survey</title>
+
+    <!-- Bootstrap 4.1.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- Link to stylesheet -->
+    <link href="/assets/style.css" rel="stylesheet">
+
+</head>
+<body class="survey">
+
+    <header>
+
+        <div class="container">
+
+            <div class="jumbotron text-center">
+
+                <h1><i class="fas fa-user-friends"></i> Friend Finder</h1>
+
+                <h2>Answer a few basic questions, then find the friend with the greatest compatibility!</h2>
+
+            </div>
+
+        </div> <!-- /container -->
+
+    </header>
+
+    <div class="container">
+
+        <section>
+
+            <div class="card">
+                <div class="card-header">
+                    <h4>Survey Questions</h4>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="about-you">
+                            <h2 class="text-center">About You</h2>
+                            <div class="form-group">
+                                <label for="name">Name (Required)</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="image">Link to Photo Image (Required)</label>
+                                <input type="text" class="form-control" id="image" required>
+                            </div>
+                        </div>
+
+                        <div class="questions text-center">
+
+                            <h2>Questions</h2>
+
+                            <div class="question question1">
+
+                                <div class="statement">I do not become defensive when criticized.</div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label disagree" for="question1">Strongly Disagree</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree max" type="radio" name="question1" value="1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree min" type="radio" name="question1" value="2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input neutral" type="radio" name="question1" value="3">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree min" type="radio" name="question1" value="4">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree max" type="radio" name="question1" value="5">
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label agree" for="question1">Strongly Agree</label>
+                                </div>
+
+                            </div> <!-- /question 1 -->
+
+                            <div class="question question2">
+
+                                <div class="statement">I can stay calm under pressure.</div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label disagree" for="question2">Strongly Disagree</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree max" type="radio" name="question2" value="1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree min" type="radio" name="question2" value="2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input neutral" type="radio" name="question2" value="3">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree min" type="radio" name="question2" value="4">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree max" type="radio" name="question2" value="5">
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label agree" for="question2">Strongly Agree</label>
+                                </div>
+
+                            </div> <!-- /question 2 -->
+
+                            <div class="question question3">
+
+                                <div class="statement">I handle setbacks effectively.</div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label disagree" for="question3">Strongly Disagree</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree max" type="radio" name="question3" value="1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree min" type="radio" name="question3" value="2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input neutral" type="radio" name="question3" value="3">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree min" type="radio" name="question3" value="4">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree max" type="radio" name="question3" value="5">
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label agree" for="question3">Strongly Agree</label>
+                                </div>
+
+                            </div> <!-- /question 3 -->
+
+                            <div class="question question4">
+
+                                <div class="statement">I manage anxiety, stress, anger, and fear in pursuit of a goal.</div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label disagree" for="question4">Strongly Disagree</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree max" type="radio" name="question4" value="1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree min" type="radio" name="question4" value="2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input neutral" type="radio" name="question4" value="3">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree min" type="radio" name="question4" value="4">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree max" type="radio" name="question4" value="5">
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label agree" for="question4">Strongly Agree</label>
+                                </div>
+
+                            </div> <!-- /question 4 -->
+
+                            <div class="question question5">
+
+                                <div class="statement">I utilize criticism and other feedback for growth.</div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label disagree" for="question5">Strongly Disagree</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree max" type="radio" name="question5" value="1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree min" type="radio" name="question5" value="2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input neutral" type="radio" name="question5" value="3">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree min" type="radio" name="question5" value="4">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree max" type="radio" name="question5" value="5">
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label agree" for="question5">Strongly Agree</label>
+                                </div>
+
+                            </div> <!-- /question 5 -->
+
+                            <div class="question question6">
+
+                                <div class="statement">I can freely admit to making a mistake.</div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label disagree" for="question6">Strongly Disagree</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree max" type="radio" name="question6" value="1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree min" type="radio" name="question6" value="2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input neutral" type="radio" name="question6" value="3">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree min" type="radio" name="question6" value="4">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree max" type="radio" name="question6" value="5">
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label agree" for="question6">Strongly Agree</label>
+                                </div>
+
+                            </div> <!-- /question 6 -->
+
+                            <div class="question question7">
+
+                                <div class="statement">I maintain a sense of humor.</div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label disagree" for="question7">Strongly Disagree</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree max" type="radio" name="question7" value="1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree min" type="radio" name="question7" value="2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input neutral" type="radio" name="question7" value="3">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree min" type="radio" name="question7" value="4">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree max" type="radio" name="question7" value="5">
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label agree" for="question7">Strongly Agree</label>
+                                </div>
+
+                            </div> <!-- /question 7 -->
+
+                            <div class="question question8">
+
+                                <div class="statement">I try to see things from another’s perspective.</div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label disagree" for="question8">Strongly Disagree</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree max" type="radio" name="question8" value="1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree min" type="radio" name="question8" value="2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input neutral" type="radio" name="question8" value="3">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree min" type="radio" name="question8" value="4">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree max" type="radio" name="question8" value="5">
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label agree" for="question8">Strongly Agree</label>
+                                </div>
+
+                            </div> <!-- /question 8 -->
+
+                            <div class="question question9">
+
+                                <div class="statement">I recognize how my behavior affects others.</div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label disagree" for="question9">Strongly Disagree</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree max" type="radio" name="question9" value="1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree min" type="radio" name="question9" value="2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input neutral" type="radio" name="question9" value="3">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree min" type="radio" name="question9" value="4">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree max" type="radio" name="question9" value="5">
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label agree" for="question9">Strongly Agree</label>
+                                </div>
+
+                            </div> <!-- /question 9 -->
+
+                            <div class="question question10">
+
+                                <div class="statement">I can listen without jumping to judgment.</div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label disagree" for="question10">Strongly Disagree</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree max" type="radio" name="question10" value="1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input disagree min" type="radio" name="question10" value="2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input neutral" type="radio" name="question10" value="3">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree min" type="radio" name="question10" value="4">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input agree max" type="radio" name="question10" value="5">
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label agree" for="question10">Strongly Agree</label>
+                                </div>
+
+                            </div> <!-- /question 10 -->
+
+                        </div> <!-- /questions -->
+
+                        <button type="submit" class="btn btn-primary btn-block" id="submit" data-toggle="modal" data-target="#best-match">Submit</button>
+                    </form>
+                </div>
+            </div> <!-- /card -->
+
+        </section>
+
+    </div> <!-- /container -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="best-match" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Best Match</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="best-match">
+                    <h2 class="friend-name"></h2>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <!-- Link to JavaScript file -->
+    <script src="./assets/javascript.js"></script>
+    
+</body>
+</html>
