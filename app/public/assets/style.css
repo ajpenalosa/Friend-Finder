@@ -74,3 +74,118 @@ button#submit {
     padding: 10px 0;
     font-size: 20px;
 }
+
+.question .form-check.form-check-inline.label {
+    vertical-align: text-top;
+    padding-top: 14px;
+}
+
+label.form-check-label.disagree {
+    color: #CF0000;
+}
+
+label.form-check-label.agree {
+    color: #00CF00;
+}
+
+/*--------- Radio Buttons ----------*/
+
+/* The container */
+.radio-button {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-button.min {
+    width: 50px;
+    height: 50px;
+}
+
+.radio-button.max {
+    width: 60px;
+    height: 60px;
+}
+
+/* Hide the browser's default radio button */
+.radio-button input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.radio-button.min .checkmark {
+    top: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.radio-button.max .checkmark {
+    top: 0;
+    height: 60px;
+    width: 60px;
+}
+
+/* Disagree radio buttons */
+
+.radio-button.disagree.max .checkmark {
+    border: 10px solid #CF0000;
+}
+
+.radio-button.disagree.min .checkmark {
+    border: 10px solid #CF0000;
+}
+
+/* Neutral radio button */
+
+.radio-button.neutral .checkmark {
+    border: 10px solid #A5A5A5;
+}
+
+/* Agree radio buttons */
+
+.radio-button.agree.max .checkmark {
+    border: 10px solid #00CF00;
+}
+
+.radio-button.agree.min .checkmark {
+    border: 10px solid #00CF00;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-button:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a colored background */
+
+.radio-button.disagree.max input:checked ~ .checkmark,
+.radio-button.disagree.min input:checked ~ .checkmark {
+    background-color: #CF0000;
+}
+
+.radio-button.neutral input:checked ~ .checkmark {
+    background-color: #A5A5A5;
+}
+
+.radio-button.agree.max input:checked ~ .checkmark,
+.radio-button.agree.min input:checked ~ .checkmark {
+    background-color: #00CF00;
+}
