@@ -73,14 +73,8 @@ $(document).ready(function() {
             
             // Grabbing the image of the best match
             var friendImage = data[differences.indexOf(Math.min(...differences))].photo;
-    
-            // If an image exists, then create an image tag
-            // Append it to the modal
-            if (friendImage) {
-                var friendImageElement = $("<img>");
-                friendImageElement.attr("src", friendImage);
-                $(".best-match").append(friendImageElement);
-            }
+
+            $(".friend-image").attr("src", friendImage).attr("alt", friendName);
 
             // Triggers the modal
             $("#best-match").modal("show");
